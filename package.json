@@ -1,7 +1,12 @@
 {
-  "name":"chucknorris",
-  "version":"0.0.1",
-  "dependencies":{
-    "coffee-script":"1.1.1"
-  }
+  "name": "chucknorris",
+  "version": "0.0.2",
+  "description": "Chuck Norris joke dispenser.",
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "dependencies": { "coffee-script": ">= 1.1.1" },
+  "keywords": ["chuck", "norris", "jokes", "funny", "fun"],
+  "bin": { "chuck": "./bin/chuck" },
+  "repository": "git://github.com/qard/chuck",
+  "main": "index",
+  "engines": { "node": ">= 0.4.1 < 0.5.0" }
 }

@@ -1,0 +1,4 @@
+#!/usr/local/bin/coffee
+chuck = require './index'
+jokes = new chuck 'Chuck', 'Norris'
+jokes.random (err, joke) -> console.log joke
