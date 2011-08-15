@@ -1,6 +1,6 @@
 {
   "name": "chucknorris",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Chuck Norris joke dispenser.",
   "author": "Stephen Belanger <admin@stephenbelanger.com>",
   "dependencies": { "coffee-script": ">= 1.1.1" },
