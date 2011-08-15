@@ -1,4 +1,4 @@
-#!/usr/local/bin/coffee
+#!/usr/bin/env coffee
 chuck = require './index'
 
 # New chuck instance. First and last names are optional.
