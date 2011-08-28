@@ -1,4 +1,5 @@
 #!/usr/bin/env coffee
-chuck = require './index'
+chuck = require 'chuck'
 jokes = new chuck 'Chuck', 'Norris'
-jokes.random (err, joke) -> console.log joke
+jokes.random (err, joke) ->
+  if err then throw new Error err else console.log joke

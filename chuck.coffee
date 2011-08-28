@@ -24,4 +24,4 @@ module.exports = class ChuckNorris
       data = ''
       res.on 'data', (chunk) => data += chunk
       res.on 'end', =>
-        try cb null, JSON.parse data catch err then cb err
+        try cb null, JSON.parse data catch err then cb new Error 'Response could not be parsed, api.icndb.com may be down.'
