@@ -2,4 +2,4 @@
 chuck = require 'chuck'
 jokes = new chuck 'Chuck', 'Norris'
 jokes.random (err, joke) ->
-  if err then throw new Error err else console.log joke
+  console.log if err then err.message else joke
